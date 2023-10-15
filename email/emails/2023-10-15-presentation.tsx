@@ -4,7 +4,6 @@ import {
   Column,
   Container,
   Head,
-  Hr,
   Html,
   Img,
   Link,
@@ -16,7 +15,7 @@ import {
 import style from '../style'
 
 const columns: React.CSSProperties = {
-  marginTop: '15px',
+  paddingTop: '16px',
 }
 
 const column: React.CSSProperties = {
@@ -30,13 +29,13 @@ const columnImg: React.CSSProperties = {
 
 const columnText: React.CSSProperties = {
   color: '#677876',
-  margin: '5px 0',
+  margin: '8px 0',
 }
 
 const columnTextLatest: React.CSSProperties = {
   color: '#677876',
   margin: '0',
-  marginBottom: '15px',
+  marginBottom: '16px',
 }
 
 const Presentation = () => {
@@ -73,7 +72,7 @@ const Presentation = () => {
             </Text>
             <Section style={columns}>
               <Row>
-                <Column style={column} align='center'>
+                <Column style={column} align='center' valign='top'>
                   <Img
                     src='https://parents-janvry.github.io/static/narimane.png'
                     alt='narimane'
@@ -82,7 +81,7 @@ const Presentation = () => {
                   <Text style={columnText}>Narimane DJEBIRET</Text>
                   <Text style={columnTextLatest}>Lila (CE2), Largo (PS)</Text>
                 </Column>
-                <Column style={column} align='center'>
+                <Column style={column} align='center' valign='top'>
                   <Img
                     src='https://parents-janvry.github.io/static/magali.png'
                     alt='magali'
@@ -91,7 +90,7 @@ const Presentation = () => {
                   <Text style={columnText}>Magali BEAUMONT</Text>
                   <Text style={columnTextLatest}>Enola (CE1), Maeli (CP)</Text>
                 </Column>
-                <Column style={column} align='center'>
+                <Column style={column} align='center' valign='top'>
                   <Img
                     src='https://parents-janvry.github.io/static/esma.png'
                     alt='esma'
@@ -102,7 +101,7 @@ const Presentation = () => {
                 </Column>
               </Row>
               <Row>
-                <Column style={column} align='center'>
+                <Column style={column} align='center' valign='top'>
                   <Img
                     src='https://parents-janvry.github.io/static/stephanie.png'
                     alt='stephanie'
@@ -111,7 +110,7 @@ const Presentation = () => {
                   <Text style={columnText}>Stéphanie ZOPPELLO</Text>
                   <Text style={columnTextLatest}>Stella (CE2)</Text>
                 </Column>
-                <Column style={column} align='center'>
+                <Column style={column} align='center' valign='top'>
                   <Img
                     src='https://parents-janvry.github.io/static/audrey.png'
                     alt='audrey'
@@ -120,7 +119,7 @@ const Presentation = () => {
                   <Text style={columnText}>Audrey GERAULT</Text>
                   <Text style={columnTextLatest}>Simon (GS)</Text>
                 </Column>
-                <Column style={column} align='center'>
+                <Column style={column} align='center' valign='top'>
                   <Img
                     src='https://parents-janvry.github.io/static/celine.png'
                     alt='celine'
