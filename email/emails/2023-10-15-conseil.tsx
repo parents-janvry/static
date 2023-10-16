@@ -66,8 +66,8 @@ const Conseil = () => {
               Il est composé de la directrice, des enseignants, de Monsieur le
               Maire, du Conseiller municipal élu ainsi que les représentants des
               parents d'élèves. Cette assemblée prend des décisions importantes
-              au sujet l'organisation de l'école (composition, fonctionnement,
-              décisions).
+              au sujet de l'organisation de l'école (composition,
+              fonctionnement, décisions).
             </Text>
             <Text style={style.paragraph}>
               C'est pourquoi nous vous demandons de nous transmettre avant jeudi
