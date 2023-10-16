@@ -7,37 +7,12 @@ import {
   Hr,
   Html,
   Img,
-  Link,
   Row,
   Section,
   Text,
 } from '@react-email/components'
 
 import style from '../style'
-
-const columns: React.CSSProperties = {
-  paddingTop: '16px',
-}
-
-const column: React.CSSProperties = {
-  width: '30%',
-}
-
-const columnImg: React.CSSProperties = {
-  maxWidth: '80%',
-  maxHeight: '160px',
-}
-
-const columnText: React.CSSProperties = {
-  color: '#677876',
-  margin: '8px 0',
-}
-
-const columnTextLatest: React.CSSProperties = {
-  color: '#677876',
-  margin: '0',
-  marginBottom: '16px',
-}
 
 const Conseil = () => {
   return (
@@ -63,16 +38,16 @@ const Conseil = () => {
               Novembre au sein de l'école.
             </Text>
             <Text style={style.paragraph}>
-              Il est composé de la directrice, des enseignants, de Monsieur le
-              Maire, du Conseiller municipal élu ainsi que les représentants des
-              parents d'élèves. Cette assemblée prend des décisions importantes
-              au sujet de l'organisation de l'école (composition,
-              fonctionnement, décisions).
+              Seront présents la directrice, les enseignants, Monsieur le Maire,
+              le Conseiller municipal élu aux affaires scolaires ainsi que les
+              représentants des parents d'élèves. Cette assemblée prend des
+              décisions importantes au sujet de l'organisation de l'école
+              (composition, fonctionnement, ...).
             </Text>
             <Text style={style.paragraph}>
               C'est pourquoi nous vous demandons de nous transmettre avant jeudi
-              19 Octobre en réponse à ce mail toute question concernant l'école
-              ou le périscolaire que vous auriez.
+              19 Octobre en réponse à ce mail toute question ou remarque
+              concernant l'école ou le périscolaire que vous auriez.
             </Text>
             <Text style={style.paragraph}>
               Le compte-rendu du conseil d'école sera disponible dans les jours
